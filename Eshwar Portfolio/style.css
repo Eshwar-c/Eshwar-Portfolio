@@ -1,0 +1,80 @@
+#full_body{
+  background-color:#081b29 ;
+  color: white;
+}
+#header{
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  text-indent: 70px;
+  padding: 10px,20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+#header_left{
+  flex:2;
+}
+#header_right{
+  color: white;
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:hover{
+  color:rgb(158, 158, 245);
+}
+a:active{
+  background-color: #081b29;
+  text-decoration: underline;
+}
+#header_name{
+  color: white;
+  margin: 0px;
+}
+#middle{
+  margin-left: 25px;
+  padding: 45px;
+}
+#role{
+  color:rgb(158, 158, 245);
+}
+#talk{
+  background-color:rgb(158, 158, 245);
+  color: black(186, 136, 136);
+  size: 40px;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+}
+#info{
+  flex : 1;
+  line-height: 30px;
+  width: 350px;
+}
+#image{
+
+  margin: 20px;
+
+}
+#image img{
+
+  width: 450px;
+  height: 450px; 
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+#main_mid{
+  display: flex;
+  
+
+}
